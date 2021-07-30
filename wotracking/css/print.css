@@ -1,0 +1,112 @@
+/* ESCONDER ELEMENTOS */
+	#adminmenuback, #adminmenuwrap, #wpadminbar, .nativation, .update-nag , .preview-area,
+	#preview-area , .preview-area-messages, .margin-control invisible margin-control-top,
+	#nao-mostrar-impressao, #wpfooter, #screen-meta, .metabox-prefs, .hidden, #screen-meta-links,
+	#contextual-help-link-wrap {
+	display: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 0 !important;
+	height: 0 !important;
+}
+.wrap, .wrap h2  {
+	margin: 0 0 0 0 !important;
+	padding: 0 0 0 0 !important;
+	color: #000;
+}
+#topo-os {
+	text-transform: none;
+}
+h2 {
+	display: none;
+}
+#wpcontent, body .overlay, body #no-destinations-promo {
+	margin-left: 0;
+	padding: 0;
+}
+
+
+/* INFO OS */
+.infos-os {
+	margin-top: 5px !important;
+	text-transform: none;
+}
+.infos-os, #informacoes-da-os {
+	margin: 0px;
+	color: black;
+}
+#tabela-bottom {
+	margin: 15px 0 5px 0 !important;
+	color: black;
+}
+#numero_os {
+	background-color: #e0e0e0 !important;
+	-webkit-print-color-adjust: exact; 
+	padding: 4pt 6pt;
+	margin: 0 5px 0 0;
+	border-radius: 2px;
+	font-weight: bold;
+}
+#topo-os, #observacoes-os {
+	line-height: 11px;
+	color: black;
+	display: block;
+}
+#informacoes-empresa {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
+#observacoes-os {
+	margin-top: 6px !important;
+}
+
+
+/* TABELAS */
+.widefat td, .widefat th {
+	font-size: 8pt !important;
+}
+#wot_tabela {
+	font-size: 7pt;
+	box-shadow: 0 0px 0px rgba(0,0,0,.04);
+	border: 0pt solid black;
+	border-left: 0;
+	border-right: 0;
+	margin-bottom: 3px;
+	margin-top: 5px;
+	text-transform: uppercase;
+}
+#wot_tabela thead th {
+	color: black;
+	padding: 1px 0;
+	border-bottom: 1pt solid #999;
+	width: 100%;
+	margin-bottom: 5px !important;
+}
+#wot_tabela td {
+	padding: 1px 0 1px 0;
+	color: black;
+}
+#dados-cliente, #dados-produto {
+	display: none;
+}
+#titulo-produto {
+	display: block;
+	margin: 8px 0 5px 0 !important;
+	font-size: 1.3em;
+}
+#data-orc {
+	display: block;
+	margin: 16px 0 3px 0;
+	float:right;
+}
+/* ORÇAMENTO */
+#qtd_serv {
+	width: 20px !important;
+}
+#desc_serv{
+	width:200px !important;
+}
+#essencial_serv{
+	width:20px !important;
+}
